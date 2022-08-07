@@ -7,8 +7,9 @@ public class Demo {
 		
 		String s = "Saiprasad";
 		String n = "Patil";
-		String ss=new String ("Java");
+		String ss=new String ("java");
 		String a="";
+		
 		System.out.println(s.toUpperCase());
 		System.out.println(s.replace('i', 'a'));
 		System.out.println(s.equals(n));
@@ -24,7 +25,7 @@ public class Demo {
 		System.out.println(n.indexOf(3));
 		System.out.println(ss.compareTo(s));
 		System.out.println(ss.isBlank());
-		System.out.println(n.repeat(5));
+		System.out.println(n.repeat(6));
 		System.out.println(n.lastIndexOf(n));
 		System.out.println(n.trim());
 		System.out.println(s.strip());

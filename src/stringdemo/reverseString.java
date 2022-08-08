@@ -24,6 +24,14 @@ public class reverseString {
 		}
 		System.out.println("Original String:" + SS);
 		System.out.println("Reversed of given string:" + reversedStr);
+		
+		String Nm = "Raviraj Patil";
+		String reversed="";
+		for (int i = Nm.length()-1; i>=0; i--) {
+			reversed = reversed + Nm.charAt(i);
+		}
+		System.out.println("Original String:" +Nm);
+		System.out.println("Reversed of given string:" +reversed);
 	}
 
 }

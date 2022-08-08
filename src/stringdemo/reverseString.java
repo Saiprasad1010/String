@@ -17,21 +17,29 @@ public class reverseString {
 //		         System.out.println("Reverse of given string: " + reversedStr);
 		
 		
-		String SS = "Saiprasad Patil";
-		String reversedStr="";
-		for (int i = SS.length()-1; i>=0; i--) {
-			reversedStr = reversedStr + SS.charAt(i);
-		}
-		System.out.println("Original String:" + SS);
-		System.out.println("Reversed of given string:" + reversedStr);
+//		String SS = "Saiprasad Patil";
+//		String reversedStr="";
+//		for (int i = SS.length()-1; i>=0; i--) {
+//			reversedStr = reversedStr + SS.charAt(i);
+//		}
+//		System.out.println("Original String:" + SS);
+//		System.out.println("Reversed of given string:" + reversedStr);
+//		
+//		String Nm = "Raviraj Patil";
+//		String reversed="";
+//		for (int i = Nm.length()-1; i>=0; i--) {
+//			reversed = reversed + Nm.charAt(i);
+//		}
+//		System.out.println("Original String:" +Nm);
+//		System.out.println("Reversed of given string:" +reversed);
 		
-		String Nm = "Raviraj Patil";
-		String reversed="";
-		for (int i = Nm.length()-1; i>=0; i--) {
-			reversed = reversed + Nm.charAt(i);
+		String s="Bytesquare Technology";
+		String rev = "";
+		for (int a=s.length()-1; a>=0; a--) {
+			rev = rev + s.charAt(a);
 		}
-		System.out.println("Original String:" +Nm);
-		System.out.println("Reversed of given string:" +reversed);
+		System.out.println("original String:" +s);
+		System.out.println("Reversed String:" +rev);
 	}
 
 }
